@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eef2f3;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.btn {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover state */
+.btn:hover {
+  background-color: #2980b9;
+}
+
+/* Active (pressed) state */
+.btn:active {
+  transform: scale(0.95);
+}
+
+/* Toggled state */
+.btn.toggled {
+  background-color: #2ecc71;
+}
+
